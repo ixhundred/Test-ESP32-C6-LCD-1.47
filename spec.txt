@@ -1,0 +1,38 @@
+LCD Pin	ESP32C6
+MOSI	GPIO6
+SCLK	GPIO7
+LCD_CS	GPIO14
+LCD_DC	GPIO15
+LCD_RST	GPIO21
+LCD_BL	GPIO22
+
+RGB LED	ESP32C6
+RGB_Control	GPIO8
+
+TF Card	ESP32C6
+MISO	GPIO5
+MOSI	GPIO6
+SCLK	GPIO7
+CS	GPIO4
+SD_D1	NC
+SD_D2	NC
+
+Specifications
+Parameter	Value
+Interface	USB Type-C
+Main Controller	ESP32-C6
+Screen Type	TFT
+Screen Controller	Display: ST7789
+Onboard Device	Micro SD
+
+
+Features
+Equipped with a high-performance RISC-V 32-bit processor and a low-power RISC-V 32-bit processor; the high-performance processor clock is up to 160 MHz and the low-power processor clock is up to 20 MHz
+Supports 2.4 GHz Wi-Fi 6 (802.11 ax/b/g/n) and Bluetooth 5 (BLE), with onboard antenna
+Onboard 320 KB ROM, 512 KB HP SRAM, 16 KB LP SRAM, and 4 MB flash
+Onboard 1.47-inch LCD screen, 172 × 320 resolution, 262K colors
+Most GPIOs are broken out, and full-speed USB serial port is integrated
+Onboard TF card slot for external TF card storage of images or files
+Supports flexible clock control and various power modes for low-power scenarios
+Onboard RGB color LED, which works together with the transparent acrylic interlayer to create cool lighting effects
+
