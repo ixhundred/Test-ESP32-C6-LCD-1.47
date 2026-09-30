@@ -58,8 +58,8 @@ void init_display()
 
 void setup() {
     Serial.begin(115200);
-    while(!Serial); // รอให้ Serial Monitor พร้อม (สำหรับ ESP32-S3)
-    delay(1000);
+    //while(!Serial); // รอให้ Serial Monitor พร้อม (สำหรับ ESP32-S3)
+    //delay(1000);
     
     Serial.println("\n--- ESP32-S3 System Memory Information ---");
     // ตรวจสอบว่าบอร์ดมี PSRAM ภายนอกหรือไม่
